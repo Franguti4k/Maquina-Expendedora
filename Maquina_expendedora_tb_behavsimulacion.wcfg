@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Maquina_expendedora_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Maquina_expendedora_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="56500001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/Maquina_expendedora_tb/CLOCK_TB" type="logic">
+      <obj_property name="ElementShortName">CLOCK_TB</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/RESET_TB" type="logic">
+      <obj_property name="ElementShortName">RESET_TB</obj_property>
+      <obj_property name="ObjectShortName">RESET_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/COIN_IN_TB" type="array">
+      <obj_property name="ElementShortName">COIN_IN_TB[2:0]</obj_property>
+      <obj_property name="ObjectShortName">COIN_IN_TB[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/COIN_OUT_TB" type="array">
+      <obj_property name="ElementShortName">COIN_OUT_TB[2:0]</obj_property>
+      <obj_property name="ObjectShortName">COIN_OUT_TB[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/DUT/total_introducido" type="other">
+      <obj_property name="ElementShortName">total_introducido</obj_property>
+      <obj_property name="ObjectShortName">total_introducido</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/DUT/precio_lata" type="other">
+      <obj_property name="ElementShortName">precio_lata</obj_property>
+      <obj_property name="ObjectShortName">precio_lata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/LATA_TB" type="logic">
+      <obj_property name="ElementShortName">LATA_TB</obj_property>
+      <obj_property name="ObjectShortName">LATA_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/DUT/inventario_actual" type="other">
+      <obj_property name="ElementShortName">inventario_actual</obj_property>
+      <obj_property name="ObjectShortName">inventario_actual</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/DUT/inventario_restante" type="other">
+      <obj_property name="ElementShortName">inventario_restante</obj_property>
+      <obj_property name="ObjectShortName">inventario_restante</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/EMPTY_TB" type="logic">
+      <obj_property name="ElementShortName">EMPTY_TB</obj_property>
+      <obj_property name="ObjectShortName">EMPTY_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/DUT/estado_actual" type="other">
+      <obj_property name="ElementShortName">estado_actual</obj_property>
+      <obj_property name="ObjectShortName">estado_actual</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/DUT/estado_siguiente" type="other">
+      <obj_property name="ElementShortName">estado_siguiente</obj_property>
+      <obj_property name="ObjectShortName">estado_siguiente</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/DUT/inventario_empty" type="logic">
+      <obj_property name="ElementShortName">inventario_empty</obj_property>
+      <obj_property name="ObjectShortName">inventario_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/DUT/moneda_introducida" type="other">
+      <obj_property name="ElementShortName">moneda_introducida</obj_property>
+      <obj_property name="ObjectShortName">moneda_introducida</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Maquina_expendedora_tb/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+</wave_config>
