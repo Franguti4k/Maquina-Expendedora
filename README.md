@@ -5,6 +5,10 @@ En este proyecto, se aborda el diseño del sistema de control destinado a una m�
 
 # 2. DESCRIPCIÓN DEL TRABAJO
 1. Primero dibujé un diagrama de estados para saber cuántos estados necesitaría para la máquina expendedora.
+<p align="center">
+<img width="654" alt="Diagrama1" src="https://github.com/Franguti4k/Maquina-Expendedora/blob/main/Imagenes/Captura%20de%20pantalla%20(854).png">
+</p>
+
 2. Después de dibujar el diagrama de estados, empecé a escribir el código de la máquina expendedora y a crear la lógica de la máquina de estados basándome en el diagrama que dibujé.
 3. A continuación, escribí el Test Bench de la máquina expendedora para probar que todo funciona correctamente.
 4. Por último, realicé la simulación de la máquina expendedora. Estuve haciendo pruebas para encontrar errores y solucionarlos hasta llegar al código final con la solución.
@@ -58,6 +62,11 @@ Se define la entidad `Maquina_expendedora_tb` sin puertos, ya que los puertos qu
 
 # 4. TAREA OPCIONAL DE AMPLIACIÓN
 Para hacer las modificaciones volví a dibujar el diagrama de estados añadiendo un nuevo estado S3 para cuando la máquina está vacía.
+
+<p align="center">
+<img width="654" alt="Diagrama2" src="https://github.com/Franguti4k/Maquina-Expendedora/blob/main/Imagenes/Captura%20de%20pantalla%20(855).png">
+</p>
+
 # 5. MODIFICACIONES Y AMPLIACIONES
 Estas son las modificaciones que le hice al código para el conteo y para indicar que la máquina está vacía.
 
@@ -97,10 +106,17 @@ Y estas son las modificaciones que le hice al Test Bench:
     Después de que la máquina expendedora queda vacía, se simula la introducción de diferentes monedas/billetes (`COIN_IN_TB`) y se verifica que la máquina devuelva las monedas correctamente (`COIN_OUT`).
 
 # 6. ESQUEMA DEL CIRCUITO DE LA MÁQUINA
-
+<p align="center">
+<img width="654" alt="Esquema Circuito" src="https://github.com/Franguti4k/Maquina-Expendedora/blob/main/Imagenes/IMG_20240105_121412.png">
+</p>
 
 # 7. SIMULACIÓN
-...
+<p align="center">
+<img width="654" alt="Simulacion1" src="https://github.com/Franguti4k/Maquina-Expendedora/blob/main/Imagenes/IMG_20240103_120837.png">
+</p>
+<p align="center">
+<img width="654" alt="Simulacion2" src="https://github.com/Franguti4k/Maquina-Expendedora/blob/main/Imagenes/IMG_20240103_120924.png">
+</p>
 
 # 8. CONCLUSIÓN
 En mi opinión, el diseño del sistema de control para la máquina expendedora de bebidas ha sido una experiencia fascinante y desafiante. Abordar este proyecto me ha permitido aplicar de manera práctica los conceptos teóricos aprendidos en tecnología de computadores. El enfoque en una máquina de estados síncrona ha demostrado ser una metodología efectiva para comprender y organizar el funcionamiento del sistema de manera secuencial.
